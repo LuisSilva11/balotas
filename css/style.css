@@ -1,0 +1,80 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    color: #dc3545;
+    margin-top: 3%;
+    font-size: 80px;
+    text-align: center;
+}
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+    color: #dc3545;
+}
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: url("/img/criss-cross.png");
+    text-align: center;
+}
+.contenedor{
+    margin-top: 3%;
+    margin-left: 26%;
+    display: flex;
+    flex-direction: row;
+}
+.bolas1,
+.bolas2,
+.bolas3,
+.bolas4,
+.bolas5{
+    width: 100px;
+    height: 100px;
+    background-color: chartreuse;
+    text-align: center;
+    display: flex;
+    margin: 3%;
+    text-align: center;
+    justify-content: center;
+    font-size: 80px;
+    border-radius: 100%;
+    box-shadow: 10px 5px 5px rgb(95, 95, 95);
+}
+.bolas6{
+    width: 100px;
+    height: 100px;
+    background-color: #dc3545;
+    text-align: center;
+    display: flex;
+    margin: 3%;
+    text-align: center;
+    justify-content: center;
+    font-size: 80px;
+    margin-left: 47.5%;
+    border-radius: 100%;
+    box-shadow: 10px 5px 5px rgb(95, 95, 95);
+}
+@media(max-width:420px){
+    .contenedor{
+        margin-top: 3%;
+        margin-left: 0;
+        display: flex;
+        flex-direction: row;
+    }
+    .bolas6{
+        width: 100px;
+        height: 100px;
+        background-color: #dc3545;
+        text-align: center;
+        display: flex;
+        margin: 3%;
+        text-align: center;
+        justify-content: center;
+        font-size: 80px;
+        margin-left: 38%;
+        border-radius: 100%;
+        box-shadow: 10px 5px 5px rgb(95, 95, 95);
+    }
+}
