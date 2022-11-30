@@ -40,10 +40,10 @@ function baloto() {
             balota5 == num5 ||
             balota6 == num6
         ) {
-            alert("FELICIDADES GANASTE")
+            alert("FELICIDADES GANASTE :))")
         }
         else {
-            alert("NADA QUE HACER")
+            alert("NADA QUE HACER :((")
         }
     }, 1000);
 
